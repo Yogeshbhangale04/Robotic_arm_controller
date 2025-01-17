@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #aaaaaa; /* Fixed color syntax */
+    overflow: hidden;
+  }
+  
+  header {
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(11, 11, 11);
+  }
+  
+  header h1 {
+    font-size: 2em;
+    font-weight: 900;
+  }
+  
+  #container3D canvas {
+    width: 50%  !important;
+    height: 100vh !important;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0; /* Adjusted to position the canvas on the left */
+  }
+  
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  } */
+  
+  div {
+    margin: 20px;
+  }
+  .controller{
+    width: 50%;
+    margin-left: 130vh;
+  }
+  
+  input[type="range"] {
+    width: 300px;
+  }
+  
